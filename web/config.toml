@@ -1,0 +1,14 @@
+[auth]
+password = "Qwer1234." # 面板密码
+
+[server]
+port = 8081 # 面板端口
+session_secret = "" # Session 密钥，留空则每次启动随机生成
+
+[https]
+enabled = false #是否开启HTTPS
+cert_file = "./certificate/cert.pem"
+key_file = "./certificate/private.key"
+
+[realm]
+config_path = "/root/.realm/config.toml" # realm 转发配置文件路径

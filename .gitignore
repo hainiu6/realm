@@ -1,0 +1,14 @@
+# Binaries
+web/realm_web
+dist/
+*.zip
+*.tar.gz
+
+# Certificates
+certificate/
+
+# AI context docs
+CLAUDE.md
+web/CLAUDE.md
+.claude/
+.playwright-mcp
